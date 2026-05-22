@@ -1,5 +1,5 @@
 {
-  "name": "@evershop/evershop",
+  "name": "@cartflow/core",
   "version": "2.1.2",
   "type": "module",
   "description": "The React Ecommerce platform. Built with Typescript, React and Postgres. Open-source and free. Fast and customizable.",
