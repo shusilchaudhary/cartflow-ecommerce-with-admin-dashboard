@@ -14,6 +14,7 @@ dist
 /themes
 .idea/*
 .evershop
+.cartflow
 .vscode
 npm-debug.log
 /package-log.json
