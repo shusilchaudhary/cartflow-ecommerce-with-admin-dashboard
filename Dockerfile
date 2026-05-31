@@ -30,6 +30,7 @@ RUN mkdir -p config && echo '{ \
 
 RUN npm install
 RUN npm run compile
+RUN npm run compile:db
 RUN npm run build
 
 EXPOSE 3000
