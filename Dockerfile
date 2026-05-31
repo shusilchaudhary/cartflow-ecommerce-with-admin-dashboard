@@ -29,6 +29,7 @@ RUN mkdir -p config && echo '{ \
 }' > config/default.json
 
 RUN npm install
+RUN npm run compile
 RUN npm run build
 
 EXPOSE 3000
