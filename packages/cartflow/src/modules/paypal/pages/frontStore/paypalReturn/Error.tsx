@@ -1,4 +1,4 @@
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 
 export default function Error() {

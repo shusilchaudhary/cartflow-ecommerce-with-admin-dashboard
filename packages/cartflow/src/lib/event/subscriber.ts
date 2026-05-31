@@ -6,7 +6,7 @@ import { EventDataRegistry, EventName } from '../../types/event.js';
  *
  * @example
  * ```typescript
- * import { EventSubscriber } from '@evershop/evershop/lib/event/subscriber';
+ * import { EventSubscriber } from '@cartflow/core/lib/event/subscriber';
  *
  * const handler: EventSubscriber<'order.placed'> = async (data) => {
  *   // data is typed as EventDataRegistry['order.placed']
@@ -26,7 +26,7 @@ export type EventSubscriber<T extends EventName> = (
  *
  * @example
  * ```typescript
- * import { createSubscriber } from '@evershop/evershop/lib/event/subscriber';
+ * import { createSubscriber } from '@cartflow/core/lib/event/subscriber';
  *
  * export default createSubscriber('order_placed', async (data) => {
  *   // data is automatically typed

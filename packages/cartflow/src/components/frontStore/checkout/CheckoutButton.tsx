@@ -2,7 +2,7 @@ import Area from '@components/common/Area.js';
 import { Button } from '@components/common/ui/Button.js';
 import { useCartState } from '@components/frontStore/cart/CartContext.js';
 import { useCheckout } from '@components/frontStore/checkout/CheckoutContext.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 import { useWatch } from 'react-hook-form';
 

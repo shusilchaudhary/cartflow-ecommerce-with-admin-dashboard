@@ -2,9 +2,9 @@ import {
   useCartState,
   useCartDispatch
 } from '@components/frontStore/cart/CartContext.js';
-import { CreateOrderResult } from '@evershop/evershop/checkout/services';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
-import { CheckoutData } from '@evershop/evershop/types/checkoutData';
+import { CreateOrderResult } from '@cartflow/core/checkout/services';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
+import { CheckoutData } from '@cartflow/core/types/checkoutData';
 import { produce } from 'immer';
 import React, {
   createContext,

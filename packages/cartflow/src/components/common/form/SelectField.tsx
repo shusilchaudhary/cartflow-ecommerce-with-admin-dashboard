@@ -8,7 +8,7 @@ import {
   SelectTrigger,
   SelectValue
 } from '@components/common/ui/Select.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 import {
   useFormContext,

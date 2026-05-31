@@ -7,7 +7,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger
 } from '@components/common/ui/NavigationMenu.js';
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { cn } from '@cartflow/core/lib/util/cn';
 import React from 'react';
 
 interface BasicMenuProps {

@@ -1,4 +1,4 @@
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { cn } from '@cartflow/core/lib/util/cn';
 import { Loader2Icon } from 'lucide-react';
 import React from 'react';
 

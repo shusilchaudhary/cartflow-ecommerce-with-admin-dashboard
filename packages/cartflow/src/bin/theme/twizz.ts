@@ -218,7 +218,7 @@ async function isRealDirectory(path) {
 }
 
 async function getOverrideCandidates(): Promise<string[]> {
-  // Check if a folder @evershop/evershop exists in the node_modules
+  // Check if a folder @cartflow/core exists in the node_modules
   const evershopDir = path.join(
     process.cwd(),
     'node_modules',

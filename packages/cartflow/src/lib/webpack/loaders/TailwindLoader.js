@@ -31,12 +31,12 @@ export default async function TailwindLoader(c) {
   mergedTailwindConfig.content = [
     // All file in packages/evershop/dist and name is capitalized
     join(CONSTANTS.ROOTPATH, 'packages', 'evershop', 'dist', '**', '[A-Z]*.js'),
-    // All file in node_modules/@evershop/evershop/dist and name is capitalized
+    // All file in node_modules/@cartflow/core/dist and name is capitalized
     join(
       CONSTANTS.ROOTPATH,
       'node_modules',
-      '@evershop',
-      'evershop',
+      '@cartflow',
+      'core',
       'dist',
       '**',
       '[A-Z]*.js'

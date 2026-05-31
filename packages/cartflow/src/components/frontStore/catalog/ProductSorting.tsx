@@ -9,8 +9,8 @@ import {
   SelectTrigger,
   SelectValue
 } from '@components/common/ui/Select.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
+import { cn } from '@cartflow/core/lib/util/cn';
 import { ArrowDownWideNarrow, ArrowUpWideNarrow } from 'lucide-react';
 import React, { ReactNode, useCallback } from 'react';
 

@@ -8,7 +8,7 @@ import {
   CouponActions
 } from '@components/frontStore/Coupon.js';
 import { CouponForm } from '@components/frontStore/CouponForm.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import { CircleX } from 'lucide-react';
 import React from 'react';
 

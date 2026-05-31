@@ -6,7 +6,7 @@ import {
   InputGroupAddon,
   InputGroupInput
 } from '@components/common/ui/InputGroup.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 import { useFormContext, RegisterOptions, Controller } from 'react-hook-form';
 

@@ -151,7 +151,7 @@ export function createConfigClient(routes) {
       chunks: 'all',
       cacheGroups: {
         // Admin vendor chunk - includes third-party node_modules used by admin routes
-        // Excludes @evershop/evershop core and extensions
+        // Excludes @cartflow/core core and extensions
         adminVendor: {
           test: (module) => {
             // Only match JS modules from node_modules, exclude CSS
@@ -171,9 +171,9 @@ export function createConfigClient(routes) {
               return false;
             }
 
-            // Exclude @evershop/evershop core package
+            // Exclude @cartflow/core core package
             if (
-              normalizedResource.includes('node_modules/@evershop/evershop')
+              normalizedResource.includes('node_modules/@cartflow/core')
             ) {
               return false;
             }
@@ -203,7 +203,7 @@ export function createConfigClient(routes) {
           priority: 20
         },
         // FrontStore vendor chunk - includes third-party node_modules used by frontStore routes
-        // Excludes @evershop/evershop core and extensions
+        // Excludes @cartflow/core core and extensions
         frontStoreVendor: {
           test: (module) => {
             // Only match JS modules from node_modules, exclude CSS
@@ -223,9 +223,9 @@ export function createConfigClient(routes) {
               return false;
             }
 
-            // Exclude @evershop/evershop core package
+            // Exclude @cartflow/core core package
             if (
-              normalizedResource.includes('node_modules/@evershop/evershop')
+              normalizedResource.includes('node_modules/@cartflow/core')
             ) {
               return false;
             }

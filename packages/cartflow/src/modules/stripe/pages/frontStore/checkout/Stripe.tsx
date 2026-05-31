@@ -6,7 +6,7 @@ import {
   useCheckout,
   useCheckoutDispatch
 } from '@components/frontStore/checkout/CheckoutContext.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import { Elements } from '@stripe/react-stripe-js';
 import {
   PaymentElement,

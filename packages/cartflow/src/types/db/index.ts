@@ -8,7 +8,7 @@
  * used throughout the codebase for type safety.
  *
  * Usage:
- *   import type { OrderRow, ProductRow } from '@evershop/evershop/src/types/db';
+ *   import type { OrderRow, ProductRow } from '@cartflow/core/src/types/db';
  *
  * Conventions:
  *   - `XxxRow`: Represents a full row from the table (SELECT *)

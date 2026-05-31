@@ -127,7 +127,7 @@ export function createConfigClient(isAdmin = false) {
   config.devtool = 'eval-cheap-module-source-map';
 
   // Configure snapshot management for better caching
-  // Exclude @evershop/evershop core and extensions in node_modules from managed paths
+  // Exclude @cartflow/core core and extensions in node_modules from managed paths
   // This ensures webpack watches for changes in these paths
   const nodeModuleExtensions = extensions
     .filter((ext) => ext.path && ext.path.includes('node_modules'))

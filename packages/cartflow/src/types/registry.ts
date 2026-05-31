@@ -17,7 +17,7 @@ import type { CouponData } from '../modules/promotion/services/coupon/createCoup
  * @example
  * ```typescript
  * // In your module's bootstrap or type declaration file
- * declare module '@evershop/evershop/types/registry' {
+ * declare module '@cartflow/core/types/registry' {
  *   interface ValueRegistry {
  *     'myCustomValue': MyDataType;
  *   }

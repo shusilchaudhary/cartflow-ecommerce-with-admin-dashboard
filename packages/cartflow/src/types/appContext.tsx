@@ -1,4 +1,4 @@
-import { WidgetInstance } from '@evershop/evershop/types/widget';
+import { WidgetInstance } from '@cartflow/core/types/widget';
 import { PageMetaInfo } from './pageMeta.js';
 
 type GraphqlScalar = string | number | boolean | null;

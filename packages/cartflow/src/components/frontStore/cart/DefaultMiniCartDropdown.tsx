@@ -11,7 +11,7 @@ import { CartTotalSummary } from '@components/frontStore/cart/CartTotalSummary.j
 import { DefaultMiniCartDropdownEmpty } from '@components/frontStore/cart/DefaultMiniCartDropdownEmpty.js';
 import { DefaultMiniCartDropdownSummary } from '@components/frontStore/cart/DefaultMinicartDropdownSummary.js';
 import { DefaultMiniCartItemList } from '@components/frontStore/cart/DefaultMiniCartItemList.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 
 export const DefaultMiniCartDropdown: React.FC<{

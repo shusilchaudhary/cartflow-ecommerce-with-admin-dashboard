@@ -1,6 +1,6 @@
 import { useAppState } from '@components/common/context/app.js';
-import { generateComponentKey } from '@evershop/evershop/lib/util/keyGenerator';
-import type { WidgetInstance } from '@evershop/evershop/types/widget';
+import { generateComponentKey } from '@cartflow/core/lib/util/keyGenerator';
+import type { WidgetInstance } from '@cartflow/core/types/widget';
 import React, { useEffect, useState } from 'react';
 import type { ElementType } from 'react';
 

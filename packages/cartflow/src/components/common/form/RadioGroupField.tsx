@@ -11,7 +11,7 @@ import {
   RadioGroup,
   RadioGroupItem
 } from '@components/common/ui/RadioGroup.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 import {
   useFormContext,

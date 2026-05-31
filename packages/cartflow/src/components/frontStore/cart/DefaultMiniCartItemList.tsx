@@ -1,6 +1,6 @@
 import { CartItem } from '@components/frontStore/cart/CartContext.js';
 import { CartSummaryItemsList } from '@components/frontStore/cart/CartSummaryItems.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 
 interface CartItemsTableProps {

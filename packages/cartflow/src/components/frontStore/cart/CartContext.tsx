@@ -1,9 +1,9 @@
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
-import { ApiResponse } from '@evershop/evershop/types/apiResponse';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
+import { ApiResponse } from '@cartflow/core/types/apiResponse';
 import {
   CustomerAddressGraphql,
   Address
-} from '@evershop/evershop/types/customerAddress';
+} from '@cartflow/core/types/customerAddress';
 import { produce } from 'immer';
 import React, {
   createContext,

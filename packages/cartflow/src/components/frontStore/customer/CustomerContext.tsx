@@ -1,6 +1,6 @@
 import { useAppDispatch } from '@components/common/context/app.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
-import { CustomerAddressGraphql } from '@evershop/evershop/types/customerAddress';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
+import { CustomerAddressGraphql } from '@cartflow/core/types/customerAddress';
 import { produce } from 'immer';
 import React, {
   createContext,

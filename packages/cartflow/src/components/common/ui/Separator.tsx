@@ -1,5 +1,5 @@
 import { Separator as SeparatorPrimitive } from '@base-ui/react/separator';
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { cn } from '@cartflow/core/lib/util/cn';
 import React from 'react';
 
 function Separator({

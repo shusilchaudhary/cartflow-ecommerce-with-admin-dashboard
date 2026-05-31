@@ -1,5 +1,5 @@
 import { Input as InputPrimitive } from '@base-ui/react/input';
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { cn } from '@cartflow/core/lib/util/cn';
 import * as React from 'react';
 
 const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<'input'>>(

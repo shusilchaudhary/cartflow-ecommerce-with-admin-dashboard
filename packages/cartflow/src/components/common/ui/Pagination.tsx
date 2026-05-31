@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { Button } from '@components/common/ui/Button.js';
-import { cn } from '@evershop/evershop/lib/util/cn';
+import { cn } from '@cartflow/core/lib/util/cn';
 import {
   ChevronLeftIcon,
   ChevronRightIcon,

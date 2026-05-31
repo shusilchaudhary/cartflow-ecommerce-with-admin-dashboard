@@ -7,7 +7,7 @@ import { Image } from '@components/common/Image.js';
 import { ProductNoThumbnail } from '@components/common/ProductNoThumbnail.js';
 import { CartItem } from '@components/frontStore/cart/CartContext.js';
 import { ItemQuantity } from '@components/frontStore/cart/ItemQuantity.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
 import React from 'react';
 
 interface CartItemsTableProps {

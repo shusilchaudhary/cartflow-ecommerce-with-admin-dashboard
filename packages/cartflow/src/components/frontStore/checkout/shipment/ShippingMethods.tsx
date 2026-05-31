@@ -17,8 +17,8 @@ import {
   RadioGroupItem
 } from '@components/common/ui/RadioGroup.js';
 import { useCheckout } from '@components/frontStore/checkout/CheckoutContext.js';
-import { _ } from '@evershop/evershop/lib/locale/translate/_';
-import { CustomerAddressGraphql } from '@evershop/evershop/types/customerAddress';
+import { _ } from '@cartflow/core/lib/locale/translate/_';
+import { CustomerAddressGraphql } from '@cartflow/core/types/customerAddress';
 import { Package } from 'lucide-react';
 import React from 'react';
 

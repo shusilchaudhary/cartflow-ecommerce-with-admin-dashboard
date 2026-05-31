@@ -137,7 +137,7 @@ export function createBaseConfig(isServer) {
 
   // Resolve aliases
   const alias = {
-    '@evershop/evershop/components': path.resolve(__dirname, '../../components')
+    '@cartflow/core/components': path.resolve(__dirname, '../../components')
   };
   if (theme) {
     alias['@components'] = [path.resolve(theme.path, 'dist/components')];
@@ -147,13 +147,13 @@ export function createBaseConfig(isServer) {
 
   if (
     !isRealDirectorySync(
-      path.resolve(CONSTANTS.ROOTPATH, 'node_modules', '@evershop', 'evershop')
+      path.resolve(CONSTANTS.ROOTPATH, 'node_modules', '@cartflow', 'core')
     )
   ) {
-    alias['@evershop/evershop'] = path.resolve(
+    alias['@cartflow/core'] = path.resolve(
       CONSTANTS.ROOTPATH,
       'packages',
-      'evershop',
+      'cartflow',
       'dist'
     );
   }

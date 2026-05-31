@@ -111,7 +111,7 @@ async function createTheme() {
           ))
             ? [
                 './src/components/*',
-                '../../node_modules/@evershop/evershop/src/components/*'
+                '../../node_modules/@cartflow/core/src/components/*'
               ]
             : ['./src/components/*', '../../packages/evershop/src/components/*']
         }

@@ -1,5 +1,5 @@
 import { Button } from '@components/common/ui/Button.js';
-import { assign } from '@evershop/evershop/lib/util/assign';
+import { assign } from '@cartflow/core/lib/util/assign';
 import { produce } from 'immer';
 import PropTypes from 'prop-types';
 import React, { useReducer } from 'react';

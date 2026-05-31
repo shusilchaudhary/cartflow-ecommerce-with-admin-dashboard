@@ -13,7 +13,7 @@ import {
  * @example
  * ```typescript
  * // In your module
- * declare module '@evershop/evershop/types/event' {
+ * declare module '@cartflow/core/types/event' {
  *   interface EventDataRegistry {
  *     'order_placed': {
  *       orderId: number;
