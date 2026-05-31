@@ -1,0 +1,18 @@
+{
+  "shop": {
+    "language": "en",
+    "timezone": "America/New_York",
+    "currency": "USD",
+    "weightUnit": "kg"
+  },
+  "system": {
+    "session": {
+      "maxAge": 86400000,
+      "resave": false,
+      "saveUninitialized": false,
+      "cookieSecret": "cartflow-production-secret-change-me",
+      "cookieName": "sid",
+      "adminCookieName": "admin-sid"
+    }
+  }
+}
